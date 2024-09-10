@@ -1,0 +1,52 @@
+body {
+    background-color: #f1d1d1;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+input[type='radio'] { 
+    transform: scale(3); 
+}
+
+.button {
+    background-color: #000000;
+    color: #f1d1d1;
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.next-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.button-container {
+    display: flex;
+}
